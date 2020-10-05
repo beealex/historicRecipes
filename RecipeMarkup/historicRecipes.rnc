@@ -1,0 +1,16 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+start = recipe
+recipe = element recipe {title, about, credit, \list, note}
+title = element title {text}
+about = element about {text}
+credit = element credit {text}
+\list = element list {type, label, item, text}
+label = element label {text}
+item = element item {type| quant| unit| xml:id| step| text}
+type = attribute type {"ingredients"| "dry" | "wet" | "spice" | "veggies" | "herb" | "dairy" | "meat" | "animal byproduct" | "fruit" | "dough"| "Instructions" |"equip"}
+quant = attribute quant {xsd:decimal}
+unit = attribute unit {"cup", "Tbsp", "whole", "tsp", "package", "can", "lbs", "chili", "Stick", "clove"}
+xml:id = attribute xml:id {"canoil"| "bellpepp"| "saffthreads"| "chickpea"| "chopspin"| "fetachz"| "scallion"| "chopdill"| "lgeggs"| "lemon"| "gratnutmeg"| "blpepp"| "salt"| "phyllo"| "frlentil"| "lwhrice"| "water"| "grcoriander"| "grcumin"| "yellonion"| "fish"| "turmeric"| "redonion"| "cardamom"| "cinnstick"| "cocomilk"| "bayleaf"| "slginger"| "tomato"|
+step = attribute step {xsd:integer+}
+note = element note {n, type+, text}
+
