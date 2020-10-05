@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe name='Persian Lamb Stew With Apricots'><title>Persian Lamb Stew With Apricots</title>
+<about>
+    servings  = 6
+    serving size = 1 Cup
+</about>
+<credit>With thanks to canola oil!</credit>
+
+    <list type='ingredients'>
+        <label>Ingredients</label>
+        
+<item type = 'herb' quant = '.25' unit = 'cup' xml:id = 'freshMint'>¼ cup coarsely chopped, firmly packed fresh mint leaves</item>
+<item type = 'spice' quant = '2' unit = 'Tbsp' xml:id = 'freshGinger'>2 Tbsp finely chopped fresh ginger</item>
+<item type = 'spice' quant = '2' unit = 'Tbsp' xml:id = 'fineGarlic'>2 Tbsp finely chopped garlic cloves</item>
+<item type = 'spice' quant = '1.25' unit = 'tsp' xml:id = 'salty'>1½ tsp coarse kosher or sea salt</item>
+<item type = 'spice' quant = '1' unit = 'tsp' xml:id = 'cumin'>1 tsp cumin</item>
+<item type = 'spice' quant = '.5' unit = 'tsp' xml:id = 'tumeric'> ½ tsp turmeric</item>
+<item type = 'spice' quant = '.5' unit = 'tsp' xml:id = 'cayenne'>½ tsp cayenne pepper</item>
+<item type = 'meat' quant = '1.75.' unit = 'lbs' xml:id = 'chicken'>1¼ lbs boneless leg of lamb, fat trimmed off and discarded, cut into 1-inch cubes</item>
+<item type = 'wet' quant = '.25' unit = 'cup' xml:id = 'canolaO'>¼ cup canola oil</item>
+<item type = 'veggie' quant = '4' unit = 'cup' xml:id = 'rOnion'>4 cups finely chopped red onion</item>
+<item type = 'fruit' quant ='1' unit = 'cup' xml:id = 'DryApricot'>1 cup dried apricots</item>
+<item type = 'wet' quant = '1' unit = 'cup' xml:id = 'water'>1 cup water</item>
+<item type = 'dry' quant = '1' unit = 'tbsp' xml:id = 'dBSugar'>1 Tbsp firmly packed dark brown sugar</item>
+<item type = 'wet' quant = '2' unit = 'tbsp' xml:id = 'vinegar' >2 Tbsp malt or cider vinegar</item>
+<item type = 'herb' quant = '.25' unit = 'cup' xml:id = 'cilantro'>¼ cup finely chopped fresh cilantro leaves and tender stems</item>
+    </list>
+       
+<list type = 'Instructions'>
+    <label>Instructions</label>
+<item step = '1' xml:id = 'combineSpice'>In <equip ref = 'medBowl'>medium bowl</equip> combine mint and all spices; mix well. </item>
+<item step = '2' xml:id = 'marinateToss'>Add lamb and toss to coat with marinade rub. </item>
+<item step = '3' xml:id = 'chill'><equip ref='fridge'>refridgerate</equip>covered, for at least 30 minutes or overnight, to allow meat to absorb flavors.</item>
+<item step = '4' xml:id = 'heatWok'>Preheat <equip ref = 'wok'>wok</equip> well-seasoned cast-iron skillet, or Dutch oven over medium-high heat. </item>
+<item step = '5' xml:id = 'cookTime'>Drizzle canola oil down its sides. As soon as oil forms shimmering pool at bottom, add onion and cook, stirring occasionally, while it stews in its own juices, about 5 minutes. </item>
+<item step = '6' xml:id = 'cookMore'>Once liquid evaporates, reduce heat to medium and stir-fry until onion turns honey-brown with deep purple hue, 15 to 20 minutes.</item>
+
+<item step = '7' xml:id = 'addLambFruit'>Add lamb and apricots and raise heat to medium-high.</item>
+<item step = '8' xml:id = 'sear'>Cook, stirring frequently, until meat sears and starts to brown, 8 to 10 minutes. </item>
+<note n= '1'>Some canola oil will separate from onion and lamb, and glisten on top of mixture. Apricots will start to soften.</note>
+
+<item step = '10' xml:id = 'addwater'>Add water and stir once or twice. </item>
+<item step = '11' xml:id = 'lambCook'>Once it boils, which will be almost instantaneously, reduce heat to medium-low, cover wok and simmer, stirring occasionally, until lamb is fork-tender, about 30 minutes. </item>
+<item step = '12' xml:id = 'intoBowl'>Transfer lamb, apricots and onion to serving bowl and leave behind some sauce in wok.</item>
+
+<item step = '13' xml:id = 'stirSugar'>Stir brown sugar into wok.</item>
+<note n ='2'>Heat from sauce will melt sugar.</note>
+<item step = '15' xml:id = 'pourSauce'>Pour sauce over lamb and stir in vinegar. </item>
+<item step = '16' xml:id = 'garnish'>Sprinkle cilantro over stew and serve.</item>
+</list>
+
