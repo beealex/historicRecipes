@@ -1,0 +1,19 @@
+/* Other important colors: #915908 or #462B03 (Outlines) */
+body {
+    background-color: #FFD79E;
+    color: black;
+    font-family: ariel, helvetica, sans-serif;
+}
+
+h1{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
