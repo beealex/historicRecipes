@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="historicRecipes.rnc" type="application/relax-ng-compact-syntax"?>
+<recipe name = "Wild Halibut"><title>Turmeric Rubbed Wild Halibut with Cracked Black Pepper</title>
+    
+    <about>
+        About this Recipe
+        Servings: 8 
+        Serving Size: 1 Halibut Fillet with 1/3 cup sauce
+    </about>
+    
+    <credit>With thanks to Canola Info</credit>
+    
+    <list type= "ingredients">
+        <label> Ingredients </label>
+       <item type="meat" quant="4" unit="whole" xml:id="fish"> 4 skinless fresh, wild-caught Pacific halibut filets (about 1 pounds/500 g)</item>
+        <item type="spice" quant="1" unit="tsp" xml:id="turmeric">1 tsp turmeric 5 mL</item>
+       <item type="wet" quant=".25" unit="cup" xml:id="canoil"> 1/4 cup canola oil 60 mL, divided</item>
+       <item type="veggies" quant="1" unit="cup" xml:id="redonion"> 1 cup finely chopped red onion 250 mL</item>
+       <item type="spice" quant="2" unit= "whole" xml:id="cardamom">2 green or white cardamom pods</item>
+       <item type="spice" quant="2" unit="stick" xml:id="cinnstick"> 2 cinnamon sticks (each 3 inches/7.5 cm long)</item>
+       <item type="dairy" quant="1" unit="can" xml:id="cocomilk"> 1 can (13.5 oz/382 g) unsweetened coconut milk</item>
+       <item type="spice" quant="1" unit="tsp" xml:id="blpepp">1 tsp coarsely cracked black pepper 5 mL</item>
+       <item type="spice" quant="1" unit="tsp" xml:id="salt">1 tsp coarse kosher or sea salt 5 mL</item>
+       <item type="herb" range="2 4" unit="leaves" xml:id="bayleaf">2 to 4 medium to large fresh or dried bay leaves</item>
+       <item type="spice" quant="2" unit="whole" xml:id="slginger"> 2 lengthwise slices fresh ginger (each 1-inch/2.5-cm long, 1-inch/2.5-cm wide and 1/8-inch/0.3-cm thick), cut into matchstick strips</item>
+       <item type="veggies" quant="1" unit="whole" xml:id="tomato"> 1 large tomato, cored and finely chopped (no need to remove seeds)</item>
+    </list>
+    <list type="equip">
+        <item> Large saucepan </item>
+        <item> Stove </item>
+        <item> Tongs </item>
+        <item> Spatula </item>
+        <item> Spoon </item>
+        <item> Plastic Wrap or Aluminum Foil </item>
+        <item>Serving Platter</item>
+    </list>   
+    
+    <list type= "Instructions">
+        <listName>Making and Cooking It</listName>
+<item type="1">Sprinkle and coat each fish filet on both sides with turmeric. </item>
+<item type="2">In large saucepan over medium-high heat, add 2 Tbsp (30 mL) canola oil. Add filets to pan and allow underside to sear to light brown, sun-yellow color, 1 to 2 minutes. Flip them over and sear other sides to similar color, 1 to 2 minutes. Remove filets from pan and set on plate. Drizzle another 2 Tbsp (30 mL) canola oil into hot pan. Add onion, cardamom pods and cinnamon sticks to pan and stir-fry until onion is partially browned and smells aromatic, about 3 minutes. </item>
+<item type="3">Pour in coconut milk and add pepper, salt, bay leaves and ginger. Stir once or twice to incorporate flavors. Return filets, including any pooled liquid, to pan. Cover filets with creamy sauce. Reduce heat to medium-low, cover pan and poach, basting slabs occasionally, until fish feels firm and barely starts to flake, 5 to 7 minutes. </item>
+<item type="4">Put filets on serving platter and cover with plastic wrap or aluminum foil to keep warm. Add tomato to pan. Raise heat under pan to medium-high and cook, uncovered, stirring occasionally, until sauce thickens, 1 to 2 minutes.</item> 
+<item type="5">Pour sauce over filets and serve immediately with steamed rice noodles, red rice or basmati rice.</item>
+    </list>
+   
+</recipe>

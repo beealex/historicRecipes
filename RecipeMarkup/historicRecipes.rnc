@@ -1,16 +1,26 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 start = recipe
-recipe = element recipe {title, about, credit, \list, note}
+recipe = element recipe {name, title, about, credit, (\list+, note*)}
+name = attribute name {text}
 title = element title {text}
 about = element about {text}
 credit = element credit {text}
-\list = element list {type, label, item, text}
+\list = element list {type, listName*, label*, ((item*| note*), text*)}
+#I think the error for item/note is being thrown in the xml docs because we have note inside a list and outside a list. However, I am not sure how to account for this right now.
+listName = element listName {text}
+type = attribute type {text}
 label = element label {text}
-item = element item {type| quant| unit| xml:id| step| text}
-type = attribute type {"ingredients"| "dry" | "wet" | "spice" | "veggies" | "herb" | "dairy" | "meat" | "animal byproduct" | "fruit" | "dough"| "Instructions" |"equip"}
-quant = attribute quant {xsd:decimal}
-unit = attribute unit {"cup", "Tbsp", "whole", "tsp", "package", "can", "lbs", "chili", "Stick", "clove"}
-xml:id = attribute xml:id {"canoil"| "bellpepp"| "saffthreads"| "chickpea"| "chopspin"| "fetachz"| "scallion"| "chopdill"| "lgeggs"| "lemon"| "gratnutmeg"| "blpepp"| "salt"| "phyllo"| "frlentil"| "lwhrice"| "water"| "grcoriander"| "grcumin"| "yellonion"| "fish"| "turmeric"| "redonion"| "cardamom"| "cinnstick"| "cocomilk"| "bayleaf"| "slginger"| "tomato"|
-step = attribute step {xsd:integer+}
-note = element note {n, type+, text}
+item = element item {type*, range*, quant*, unit*, xmlid*, text}
+range = attribute range {xsd:integer}
 
+#{"ingredients"| "dry" | "wet" | "spice" | "veggies" | "herb" | "dairy" | "meat" | "animal byproduct" | "fruit" | "dough"| "Instructions" |"equip"| xsd:integer*}
+quant = attribute quant {xsd:integer | xsd:decimal}
+unit = attribute unit {text}
+#"cup", "Tbsp", "whole", "tsp", "package", "can", "lbs", "chili", "Stick", "clove"}
+
+xmlid = attribute xml:id {xsd:ID}
+#"canoil"| "bellpepp"| "saffthreads"| "chickpea"| "chopspin"| "fetachz"| "scallion"| "chopdill"| "lgeggs"| "lemon"| "gratnutmeg"| "blpepp"| "salt"| "phyllo"| "frlentil"| "lwhrice"| "water"| "grcoriander"| "grcumin"| "yellonion"| "fish"| "turmeric"| "redonion"| "cardamom"| "cinnstick"| "cocomilk"| "bayleaf"| "slginger"| "tomato"|
+#step = attribute step {xsd:integer+}
+
+note = element note {n?, type*, text} 
+n = attribute n {xsd:integer}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<?xml-model href="historicRecipes.rnc" type="application/relax-ng-compact-syntax"?>
 <recipe name = "Phyllo Bundles"> <title>Phyllo Bundles with Saffron Flavored Chickpeas</title>
     
     <about>
@@ -40,12 +40,12 @@
     
     <list type= "Instructions">
         <listName>Making and Cooking It</listName>
-<item step="1">Line cookie sheet with parchment paper. Place oven rack in center of oven and preheat oven to 375 °F (190 °C). </item>
-<item step="2">In medium skillet, heat 2 Tbsp (30 mL) canola oil over medium-high heat. Once oil appears to shimmer, add pepper and saffron and stir-fry until pepper is softened, about 5 minutes. Scrape this orange-hued medley into medium bowl, leaving any remaining oil in skillet. Add remaining 2 Tbsp (30 mL) canola oil in skillet, mix and set aside.</item>
-<item step="3">In small bowl, add chickpeas, spinach, feta, scallions, dill, eggs, lemon, nutmeg, pepper and salt. Mix well. </item>
+<item type ="1">Line cookie sheet with parchment paper. Place oven rack in center of oven and preheat oven to 375 °F (190 °C). </item>
+<item type ="2">In medium skillet, heat 2 Tbsp (30 mL) canola oil over medium-high heat. Once oil appears to shimmer, add pepper and saffron and stir-fry until pepper is softened, about 5 minutes. Scrape this orange-hued medley into medium bowl, leaving any remaining oil in skillet. Add remaining 2 Tbsp (30 mL) canola oil in skillet, mix and set aside.</item>
+<item type ="3">In small bowl, add chickpeas, spinach, feta, scallions, dill, eggs, lemon, nutmeg, pepper and salt. Mix well. </item>
 <item>Working on clean and dry cutting board, carefully peel apart one phyllo sheet and place on board. Brush with saffron-hued oil from skillet. Peel second phyllo sheet and place on brushed surface. Repeat twice more for stack of four sheets.</item>
-<item step="4">Place 1/2 cup (125 mL) filling alongside lower third part of shorter side of phyllo sheets. Fold longer edges over filling and roll sheets, burrito-style, to reach top third of other short sides. Brush edges with saffron canola oil and fold over to form a snug packet. Brush all sides with more oil and place on cookie sheet. Repeat with remaining phyllo sheets (you may have some leftover) and use up all filling until you have about eight bundles. </item>
-<item step="5">Bake bundles until sunny brown and crispy, about 45 minutes. Let cool for 5 minutes and serve with colorful side dishes as desired.</item>
+<item type ="4">Place 1/2 cup (125 mL) filling alongside lower third part of shorter side of phyllo sheets. Fold longer edges over filling and roll sheets, burrito-style, to reach top third of other short sides. Brush edges with saffron canola oil and fold over to form a snug packet. Brush all sides with more oil and place on cookie sheet. Repeat with remaining phyllo sheets (you may have some leftover) and use up all filling until you have about eight bundles. </item>
+<item type ="5">Bake bundles until sunny brown and crispy, about 45 minutes. Let cool for 5 minutes and serve with colorful side dishes as desired.</item>
 
 </list>
 </recipe>
