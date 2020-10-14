@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe name = 'Ethiopian Chicken with Berberi Sauce and Fresh Ginger'><title>Ethiopian Chicken with Berberi Sauce and Fresh Ginger</title>
+<about>
+    servings = 8
+    serving size = 1 chicken piece and 1/3 cup (75 mL) sauce
+</about>
+ <credit>With thanks to Canola Oil!</credit>
+    <list type= 'ingredients'><label>Ingredients</label>
+<item type = 'spice' quant ='1' unit = 'tsp' xml:id = 'cumin'>1 tsp cumin seeds</item>
+<item type = 'spice' quant = '.5' unit ='tsp' xml:id ='cardamom'>1/2 tsp cardamom seeds</item>
+<item type = 'spice' quant = '.5' unit = 'tsp' xml:id ='bPeppercorn'>1/2 tsp black peppercorns</item>
+<item type = 'herb' range = '3 5' unit = 'chili' xml:id='chilie'>3 to 5 dried red cayenne chiles (like chile de arbol), stems removed</item>
+<item type = 'spice' quant = '1' unit = 'Stick' xml:id='cinnamonStick'>1 cinnamon stick (about 3-inches/7.5-cm long)</item>
+<item type = 'veggie' quant='2' unit='whole' xml:id='yellowOnion'>2 small yellow onions, one coarsely chopped and other finely chopped</item>
+<item type = 'spice' quant = '2' unit = 'piece' xml:id='freshGinger'>2 pieces fresh ginger (each about size and thickness of 25-cent coin)</item>
+<item type = 'spice' quant = '2' unit = 'clove' xml:id='garlicClove'>2 large garlic cloves</item>
+<item type = 'wet' quant = '.25' unit = 'cup' xml:id ='canolaOil'>1/4 cup canola oil 60 mL</item>
+<item type = 'wet' quant = '1' unit = 'cup' xml:id ='tomtatoSauce'>1 cup tomato sauce 250 mL</item>
+<item type = 'meat' quant = '3' unit = 'lbs' xml:id ='chockenBone'> 3 lbs cut-up bone-in chicken, skin removed (see Cook’s Tips)</item>
+<item type = 'spice' quant = '1' unit = 'tsp' xml:id='salty'>  1 tsp coarse sea or kosher salt 5 mL </item>
+    </list>
+    <list type = 'Instructions'>
+        <label>Instructions</label>
+<item step ='1' xml:id='combineSpice'>In <equip ref = 'smbowl'>small bowl</equip>, combine cumin, cardamom, peppercorns, chiles and cinnamon. Preheat <equip ref = 'lgSkillet'>large skillet</equip> over medium-high heat. Once pan feels hot, add spice blend pan.</item>
+<item step ='2' xml:id='toastSpice'>Toast spices, stirring them constantly as they bloom with nutty aroma and turn just a shade darker, 1 to 2 minutes.</item>
+<item step ='3' xml:id='transferCool'>Quickly remove spices from pan and transfer to plate to cool, about 5 minutes. </item>
+<item step ='4' xml:id='grindSpice'>Once cooled, transfer spices to grinder, like coffee grinder, and grind to consistency of finely ground black pepper.</item> 
+<item step ='5' xml:id='processor'>In <equip ref='foodProcessor'>food processor</equip>, place coarsely chopped onion, ginger, garlic and ground spices.</item>
+<item step ='6' xml:id='minceIngred'>Mince ingredients to consistency of slightly coarse paste. </item>
+<item step ='7' xml:id='pasteSeperate'>In <equip ref = 'lgskillet'>same skillet</equip>, pour canola oil and heat over medium temperature. Once oil appears to shimmer, add finely chopped onion and stir-fry until it turns light brown around edges, about 5 minutes.</item> 
+<item step ='8' xml:id='evapMoisture'>Add paste to <equip ref = 'lgskillet'>same skillet</equip>and cook, stirring ingredients occasionally, uncovered, until moisture in paste evaporates and canola oil starts to separate from mix, 5 to 8 minutes. </item>
+<item step ='9' xml:id='brownChicke'>Add chicken pieces and allow them to absorb flavors from other ingredients, turning occasionally, uncovered, until some pieces turn lightly brown, about 5 minutes. </item>
+<item step ='10' xml:id='sauceSalt'>Pour in tomato sauce, sprinkle in salt and stir well. </item>
+<item step ='11' xml:id='clearJuice'>Lower heat to medium-low and cook chicken, covered, stirring occasionally, until meat in thickest parts is no longer pink inside and juices run clear, 20 to 25 minutes. </item>
+<item step ='12' xml:id='ServeWSauce'>Serve chicken warm with aromatic sauce alongside a <equip ref = 'plate'>plate</equip> of rice, couscous or in the traditional way with slices of hard-boiled eggs. </item>
+    </list>
+
+
+    <note n='1'>Cook’s Tip: Cut-up, bone-in chicken can be found in every grocery store’s meat department. These skin-on pieces are easy to work with compared to the messy process of skinning a whole chicken and cutting it into smaller pieces. To skin, hold chicken piece in one hand and with a paper towel in the other hand, pull off skin, using towel to help you grip skin. Sometimes partially freezing chicken also makes skinning easier. While pre-cut pieces make for less work, they are typically more expensive than a whole chicken.</note>
+</recipe>
