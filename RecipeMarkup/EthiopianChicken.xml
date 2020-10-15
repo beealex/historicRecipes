@@ -11,7 +11,7 @@
 <item type = 'spice' quant ='1' unit = 'tsp' xml:id = 'cumin'>1 tsp cumin seeds</item>
 <item type = 'spice' quant = '.5' unit ='tsp' xml:id ='cardamom'>1/2 tsp cardamom seeds</item>
 <item type = 'spice' quant = '.5' unit = 'tsp' xml:id ='bPeppercorn'>1/2 tsp black peppercorns</item>
-<item type = 'herb' range = '3 5' unit = 'chili' xml:id='chilie'>3 to 5 dried red cayenne chiles (like chile de arbol), stems removed</item>
+<item type = 'herb' range = '3 5' unit = 'chili' xml:id='chile'>3 to 5 dried red cayenne chiles (like chile de arbol), stems removed</item>
 <item type = 'spice' quant = '1' unit = 'Stick' xml:id='cinnamonStick'>1 cinnamon stick (about 3-inches/7.5-cm long)</item>
 <item type = 'veggie' quant='2' unit='whole' xml:id='yellowOnion'>2 small yellow onions, one coarsely chopped and other finely chopped</item>
 <item type = 'spice' quant = '2' unit = 'piece' xml:id='freshGinger'>2 pieces fresh ginger (each about size and thickness of 25-cent coin)</item>

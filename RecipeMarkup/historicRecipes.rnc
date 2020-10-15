@@ -1,6 +1,6 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 start = recipe
-recipe = element recipe {name, title, about, credit, (\list+, note*)}
+recipe = element recipe {name, title, about, credit, (\list* , note*, item*)}
 name = attribute name {text}
 title = element title {text}
 about = element about {text}
@@ -11,7 +11,8 @@ listName = element listName {text}
 type = attribute type {text}
 label = element label {text}
 item = element item {type*, range*, quant*, unit*, xmlid*, text}
-range = attribute range {xsd:integer}
+
+range = attribute range {text}
 
 #{"ingredients"| "dry" | "wet" | "spice" | "veggies" | "herb" | "dairy" | "meat" | "animal byproduct" | "fruit" | "dough"| "Instructions" |"equip"| xsd:integer*}
 quant = attribute quant {xsd:integer | xsd:decimal}

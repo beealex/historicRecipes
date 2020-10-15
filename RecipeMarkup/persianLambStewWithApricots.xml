@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?xml-model href="../../../Hisotoric%20Recipe%20Markup/historicRecipes.rnc" type="application/relax-ng-compact-syntax"?>
 <recipe name='Persian Lamb Stew With Apricots'><title>Persian Lamb Stew With Apricots</title>
 <about>
     servings  = 6
@@ -17,7 +18,7 @@
 <item type = 'spice' quant = '1' unit = 'tsp' xml:id = 'cumin'>1 tsp cumin</item>
 <item type = 'spice' quant = '.5' unit = 'tsp' xml:id = 'tumeric'> ½ tsp turmeric</item>
 <item type = 'spice' quant = '.5' unit = 'tsp' xml:id = 'cayenne'>½ tsp cayenne pepper</item>
-<item type = 'meat' quant = '1.75.' unit = 'lbs' xml:id = 'chicken'>1¼ lbs boneless leg of lamb, fat trimmed off and discarded, cut into 1-inch cubes</item>
+<item type = 'meat' quant = '1.75' unit = 'lbs' xml:id = 'chicken'>1¼ lbs boneless leg of lamb, fat trimmed off and discarded, cut into 1-inch cubes</item>
 <item type = 'wet' quant = '.25' unit = 'cup' xml:id = 'canolaO'>¼ cup canola oil</item>
 <item type = 'veggie' quant = '4' unit = 'cup' xml:id = 'rOnion'>4 cups finely chopped red onion</item>
 <item type = 'fruit' quant ='1' unit = 'cup' xml:id = 'DryApricot'>1 cup dried apricots</item>
@@ -37,16 +38,14 @@
 <item type = '6' >Once liquid evaporates, reduce heat to medium and stir-fry until onion turns honey-brown with deep purple hue, 15 to 20 minutes.</item>
 
 <item type = '7' >Add lamb and apricots and raise heat to medium-high.</item>
-<item type = '8' >Cook, stirring frequently, until meat sears and starts to brown, 8 to 10 minutes. </item>
-<note n= '1'>Some canola oil will separate from onion and lamb, and glisten on top of mixture. Apricots will start to soften.</note>
+    <item type = '8' >Cook, stirring frequently, until meat sears and starts to brown, 8 to 10 minutes.Some canola oil will separate from onion and lamb, and glisten on top of mixture. Apricots will start to soften. </item>
 
 <item type = '10' >Add water and stir once or twice. </item>
 <item type = '11' >Once it boils, which will be almost instantaneously, reduce heat to medium-low, cover wok and simmer, stirring occasionally, until lamb is fork-tender, about 30 minutes. </item>
 <item type = '12' >Transfer lamb, apricots and onion to serving bowl and leave behind some sauce in wok.</item>
 
-<item type = '13' >Stir brown sugar into wok.</item>
-<note n ='2'>Heat from sauce will melt sugar.</note>
-<item tyep = '15' >Pour sauce over lamb and stir in vinegar. </item>
+    <item type = '13' >Stir brown sugar into wok.The heat from the sauce will melt sugar.</item>
+<item type = '15' >Pour sauce over lamb and stir in vinegar. </item>
 <item type = '16' >Sprinkle cilantro over stew and serve.</item>
 </list>
 </recipe>
