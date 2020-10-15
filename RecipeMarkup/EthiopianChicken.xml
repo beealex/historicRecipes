@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="historicRecipes.rnc" type="application/relax-ng-compact-syntax"?>
 <recipe name = 'Ethiopian Chicken with Berberi Sauce and Fresh Ginger'><title>Ethiopian Chicken with Berberi Sauce and Fresh Ginger</title>
 <about>
     servings = 8
@@ -21,18 +23,18 @@
     </list>
     <list type = 'Instructions'>
         <label>Instructions</label>
-<item step ='1' xml:id='combineSpice'>In <equip ref = 'smbowl'>small bowl</equip>, combine cumin, cardamom, peppercorns, chiles and cinnamon. Preheat <equip ref = 'lgSkillet'>large skillet</equip> over medium-high heat. Once pan feels hot, add spice blend pan.</item>
-<item step ='2' xml:id='toastSpice'>Toast spices, stirring them constantly as they bloom with nutty aroma and turn just a shade darker, 1 to 2 minutes.</item>
-<item step ='3' xml:id='transferCool'>Quickly remove spices from pan and transfer to plate to cool, about 5 minutes. </item>
-<item step ='4' xml:id='grindSpice'>Once cooled, transfer spices to grinder, like coffee grinder, and grind to consistency of finely ground black pepper.</item> 
-<item step ='5' xml:id='processor'>In <equip ref='foodProcessor'>food processor</equip>, place coarsely chopped onion, ginger, garlic and ground spices.</item>
-<item step ='6' xml:id='minceIngred'>Mince ingredients to consistency of slightly coarse paste. </item>
-<item step ='7' xml:id='pasteSeperate'>In <equip ref = 'lgskillet'>same skillet</equip>, pour canola oil and heat over medium temperature. Once oil appears to shimmer, add finely chopped onion and stir-fry until it turns light brown around edges, about 5 minutes.</item> 
-<item step ='8' xml:id='evapMoisture'>Add paste to <equip ref = 'lgskillet'>same skillet</equip>and cook, stirring ingredients occasionally, uncovered, until moisture in paste evaporates and canola oil starts to separate from mix, 5 to 8 minutes. </item>
-<item step ='9' xml:id='brownChicke'>Add chicken pieces and allow them to absorb flavors from other ingredients, turning occasionally, uncovered, until some pieces turn lightly brown, about 5 minutes. </item>
-<item step ='10' xml:id='sauceSalt'>Pour in tomato sauce, sprinkle in salt and stir well. </item>
-<item step ='11' xml:id='clearJuice'>Lower heat to medium-low and cook chicken, covered, stirring occasionally, until meat in thickest parts is no longer pink inside and juices run clear, 20 to 25 minutes. </item>
-<item step ='12' xml:id='ServeWSauce'>Serve chicken warm with aromatic sauce alongside a <equip ref = 'plate'>plate</equip> of rice, couscous or in the traditional way with slices of hard-boiled eggs. </item>
+<item type ='1' >In small bowl, combine cumin, cardamom, peppercorns, chiles and cinnamon. Preheat large skillet over medium-high heat. Once pan feels hot, add spice blend pan.</item>
+<item type ='2' >Toast spices, stirring them constantly as they bloom with nutty aroma and turn just a shade darker, 1 to 2 minutes.</item>
+<item type ='3' >Quickly remove spices from pan and transfer to plate to cool, about 5 minutes. </item>
+<item type ='4' >Once cooled, transfer spices to grinder, like coffee grinder, and grind to consistency of finely ground black pepper.</item> 
+<item type ='5' >In food processor, place coarsely chopped onion, ginger, garlic and ground spices.</item>
+<item type ='6' >Mince ingredients to consistency of slightly coarse paste. </item>
+<item type ='7' >In same skillet, pour canola oil and heat over medium temperature. Once oil appears to shimmer, add finely chopped onion and stir-fry until it turns light brown around edges, about 5 minutes.</item> 
+<item type ='8' >Add paste to same skilletand cook, stirring ingredients occasionally, uncovered, until moisture in paste evaporates and canola oil starts to separate from mix, 5 to 8 minutes. </item>
+<item type ='9'>Add chicken pieces and allow them to absorb flavors from other ingredients, turning occasionally, uncovered, until some pieces turn lightly brown, about 5 minutes. </item>
+<item type ='10'>Pour in tomato sauce, sprinkle in salt and stir well. </item>
+<item type ='11'>Lower heat to medium-low and cook chicken, covered, stirring occasionally, until meat in thickest parts is no longer pink inside and juices run clear, 20 to 25 minutes. </item>
+<item type ='12'>Serve chicken warm with aromatic sauce alongside a plate of rice, couscous or in the traditional way with slices of hard-boiled eggs. </item>
     </list>
 
 

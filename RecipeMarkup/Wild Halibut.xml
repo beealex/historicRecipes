@@ -21,7 +21,7 @@
        <item type="dairy" quant="1" unit="can" xml:id="cocomilk"> 1 can (13.5 oz/382 g) unsweetened coconut milk</item>
        <item type="spice" quant="1" unit="tsp" xml:id="blpepp">1 tsp coarsely cracked black pepper 5 mL</item>
        <item type="spice" quant="1" unit="tsp" xml:id="salt">1 tsp coarse kosher or sea salt 5 mL</item>
-       <item type="herb" range="2 4" unit="leaves" xml:id="bayleaf">2 to 4 medium to large fresh or dried bay leaves</item>
+       <item type="herb" range="24" unit="leaves" xml:id="bayleaf">2 to 4 medium to large fresh or dried bay leaves</item>
        <item type="spice" quant="2" unit="whole" xml:id="slginger"> 2 lengthwise slices fresh ginger (each 1-inch/2.5-cm long, 1-inch/2.5-cm wide and 1/8-inch/0.3-cm thick), cut into matchstick strips</item>
        <item type="veggies" quant="1" unit="whole" xml:id="tomato"> 1 large tomato, cored and finely chopped (no need to remove seeds)</item>
     </list>

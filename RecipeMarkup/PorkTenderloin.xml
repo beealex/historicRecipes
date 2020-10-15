@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="historicRecipes.rnc" type="application/relax-ng-compact-syntax"?>
 <recipe name = 'Pork Tenderloin with Five Spice Powder and Peppers'>
     <title>Pork Tenderloin with Five Spice Powder and Peppers</title>
 <about>
@@ -13,7 +14,7 @@
 <item type ='wet' quant ='2' unit='tbsp' xml:id='soySauce'>2 Tbsp soy sauce</item>
 <item type ='spice' quant='.5' unit='tsp' xml:id='salty'>1/2 tsp coarse kosher or sea salt</item>
 <item type ='spice' quant='2' unit ='tsp' xml:id="fiveSpice">2 tsp Chinese five-spice powder</item>
-<item type ='meat' quant='1' unit ='lbs' xml:oid='porkTend'>1 lb boneless pork tenderloin, cut into 1/2-inch (1-cm) cubes </item>
+<item type ='meat' quant='1' unit ='lbs' xml:id='porkTend'>1 lb boneless pork tenderloin, cut into 1/2-inch (1-cm) cubes </item>
 <item type = 'dry' quant='2' unit= 'tbsp' xml:id='cornstarch'>2 Tbsp cornstarch</item>
 <item type = 'wet' quant='.25' unit='cup' xml:id='canolaOil'>1/4 cup canola oil</item>
 <item type = 'herb' quant='4' unit='whole' xml:id='garlicClove'>4 large garlic cloves, finely chopped</item>
@@ -24,13 +25,13 @@
     </list>
     <list type = 'Instructions'>
         <label>Instructions</label>
-        <item step='1'>In <equip ref='smBowl'>small bowl</equip>, stir together tomato paste, soy sauce, salt and five-spice powder. </item>
-<item step='2' xml:id= 'tossPork'>In <equip ref='mdBowl'>medium bowl</equip>, toss pork and cornstarch together. </item>
-<item step='3' xml:id='heatDrizzle'>Heat <equip ref='wok'>wok, large skillet</equip> or well-seasoned cast-iron skillet over high heat. Drizzle 2 Tbsp (30 mL) canola oil down sides of wok. When oil forms shimmering pool in bottom of wok, add pork and stir-fry, stirring constantly, until pork turns slightly brown yet still pink in center, 8 to 10 minutes. </item>
-<item step='4' xml:id='transfer'>Transfer pork to plate.</item> 
-<item step='5' xml:id='fryVeggie'>Trickle remaining 2 Tbsp (30 mL) canola oil down sides of wok and quickly stir-fry garlic, ginger and bell pepper until some pepper starts to blister, 5 to 8 minutes.</item>
-<item step='6' xml:id='addPaste'>Add tomato paste mixture and stir to warm it, about 30 seconds. </item>
-<item step='7' xml:id='wokPork'>Return pork to wok, including any juices from plate, and stir well to combine ingredients and season meat and vegetable with aromatic sauce. Once pork feels hot to touch, 2 to 4 minutes, stir in cilantro and scallions, and serve immediately.</item>
+<item type ='1'>In small bowl, stir together tomato paste, soy sauce, salt and five-spice powder. </item>
+<item type ='2' >In medium bowl, toss pork and cornstarch together. </item>
+<item type ='3' >Heat wok, large skillet or well-seasoned cast-iron skillet over high heat. Drizzle 2 Tbsp (30 mL) canola oil down sides of wok. When oil forms shimmering pool in bottom of wok, add pork and stir-fry, stirring constantly, until pork turns slightly brown yet still pink in center, 8 to 10 minutes. </item>
+<item type ='4' >Transfer pork to plate.</item> 
+<item type ='5' >Trickle remaining 2 Tbsp (30 mL) canola oil down sides of wok and quickly stir-fry garlic, ginger and bell pepper until some pepper starts to blister, 5 to 8 minutes.</item>
+<item type ='6' >Add tomato paste mixture and stir to warm it, about 30 seconds. </item>
+<item type ='7' >Return pork to wok, including any juices from plate, and stir well to combine ingredients and season meat and vegetable with aromatic sauce. Once pork feels hot to touch, 2 to 4 minutes, stir in cilantro and scallions, and serve immediately.</item>
 
 
     <note n='1'>Cook’s Tips: Most supermarkets and Asian grocery stores carry a five-spice powder blend. If not, make your own by combining:
