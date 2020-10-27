@@ -32,10 +32,10 @@
 
 <list type= "Instructions">
     <listName>Making and Cooking It</listName>
-<item type= "1">In medium saucepan, add lentils and fill pan halfway with water. Rinse lentils by rubbing them between your fingertips. Water will become cloudy; drain it. Repeat three or four times, until water remains relatively clear then drain. </item>
-<item type="2">Now add rice and 5 cups (1.25 L) water. Bring water to boil over medium-high heat. Skim off and discard any foam that may form on surface. Stir in coriander and cumin. Lower heat to low and simmer, covered, stirring occasionally, until rice and lentils are soft and creamy in texture, similar to cooked risotto, 45 minutes to 1 hour. </item>
-<item type="3">While grains cook, in large skillet or wok (preferred), heat canola oil over medium heat. Once oil appears to shimmer, add onion and stir-fry until it turns deep caramel brown in color, 25 to 30 minutes. </item>
-<item type="4"> Once lentils and rice are cooked and porridge-like in consistency, stir in onion along with salt and serve warm. </item>   
+    <item type= "1">In medium saucepan, add <ingred ptr="#frlentil">lentils</ingred> and fill pan halfway with water. Rinse <ingred ptr="#frlentil">lentils</ingred> by rubbing them between your fingertips. Water will become cloudy; drain it. Repeat three or four times, until water remains relatively clear then drain. </item>
+<item type="2">Now add <ingred ptr="#lwhrice">rice</ingred> and 5 cups (1.25 L) water. Bring water to boil over medium-high heat. Skim off and discard any foam that may form on surface. Stir in <ingred ptr="#grcoriander">coriander</ingred> and <ingred ptr="#grcumin">cumin</ingred>. Lower heat to low and simmer, covered, stirring occasionally, until <ingred ptr="#lwhrice">rice</ingred> and <ingred ptr="#frlentil">lentils</ingred> are soft and creamy in texture, similar to cooked risotto, 45 minutes to 1 hour. </item>
+<item type="3">While grains cook, in large skillet or wok (preferred), heat <ingred ptr="#canolaO">canola oil</ingred> over medium heat. Once oil appears to shimmer, add <ingred ptr="#yellonion">onion</ingred> and stir-fry until it turns deep caramel brown in color, 25 to 30 minutes. </item>
+<item type="4"> Once <ingred ptr="#frlentil">lentils</ingred> and <ingred ptr="#lwhrice">rice</ingred> are cooked and porridge-like in consistency, stir in <ingred ptr="#yellonion">onion</ingred> along with <ingred ptr="#salt">salt</ingred> and serve warm. </item>   
 </list>
     
     <note n="1" type="Presentation"> Cook’s Tip: For a more colorful presentation, serve this stew alongside a platter of fresh cut vegetables like cucumbers, tomatoes, raw red onions and wedges of lime. Like it hot? A few sliced chiles are a welcome addition. Or try a simple dollop of spiced, thickened yogurt. Sprinkle in some fresh mint and shred a handful of cucumbers for textural contrast. </note>

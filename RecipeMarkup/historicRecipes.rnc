@@ -1,6 +1,6 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 start = recipe
-recipe = element recipe {name, title, about, credit, (\list* , note*, item*)}
+recipe = element recipe {name, title, about, credit, (\list+, note*)}
 name = attribute name {text}
 title = element title {text}
 about = element about {text}
@@ -10,9 +10,9 @@ credit = element credit {text}
 listName = element listName {text}
 type = attribute type {text}
 label = element label {text}
-item = element item {type*, range*, quant*, unit*, xmlid*, text}
-
-range = attribute range {text}
+item = element item {type*, step*, range*, quant*, unit*, xmlid*, (ingred| text)*}
+step = attribute step {xsd:integer}
+range = attribute range {xsd:integer}
 
 #{"ingredients"| "dry" | "wet" | "spice" | "veggies" | "herb" | "dairy" | "meat" | "animal byproduct" | "fruit" | "dough"| "Instructions" |"equip"| xsd:integer*}
 quant = attribute quant {xsd:integer | xsd:decimal}
@@ -23,5 +23,7 @@ xmlid = attribute xml:id {xsd:ID}
 #"canoil"| "bellpepp"| "saffthreads"| "chickpea"| "chopspin"| "fetachz"| "scallion"| "chopdill"| "lgeggs"| "lemon"| "gratnutmeg"| "blpepp"| "salt"| "phyllo"| "frlentil"| "lwhrice"| "water"| "grcoriander"| "grcumin"| "yellonion"| "fish"| "turmeric"| "redonion"| "cardamom"| "cinnstick"| "cocomilk"| "bayleaf"| "slginger"| "tomato"|
 #step = attribute step {xsd:integer+}
 
+ingred = element ingred {ptr, text}
+ptr = attribute ptr {"#freshMint"| "#lamb"| "#canolaO"|"#rOnion"|"#DryApricot"| "#water"|"#dBSugar"| "#vinegar"| "#cilantro"| "#bellpepp"| "#saffthreads"| "#chxpea"| "#chopspin"| "#fetachz"| "#scallion"| "#chopdill"| "#lgeggs"| "#lemon"| "#gratnutmeg"| "#blpepper"| "#salt"| "#phyllo"| "#frlentil"| "#lwhrice"| "#grcoriander"| "#grcumin"| "#yellonion"| "#fish"| "#turmeric"| "#cardamom"| "#cinnstick"| "#cocomilk"| "#bayleaf"| "#slginger"| "#tomato"| "#tompaste"| "#soySauce"| "#fiveSpice"| "#porkTend"| "#cornstarch"| "#garlicClove"| "#freshGinger"| "#cumin"| "#bPeppcorn"| "#chile"| "#chickenBone"| "#tomSauce"}
 note = element note {n?, type*, text} 
 n = attribute n {xsd:integer}
