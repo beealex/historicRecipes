@@ -16,6 +16,11 @@ h1{
   margin-right: auto;
   width: 25%;
 }
+h3{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 img {
     display: block;
   margin-left: auto;
