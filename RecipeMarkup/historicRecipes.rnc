@@ -5,8 +5,11 @@ name = attribute name {text}
 title = element title {text}
 about = element about {text}
 credit = element credit {text}
-\list = element list {type, listName*, label*, ((item*| note*), text*)}
+\list = element list {type, listName*, label*, ((item | note)*, text*)}
 #I think the error for item/note is being thrown in the xml docs because we have note inside a list and outside a list. However, I am not sure how to account for this right now.
+# ebb: I just simplifed the syntax a little. You had (item* | note*), which meant you had one choice of *either* zero or more items *or* zero or more notes. 
+# I changed it to (item | note)* so now you can have either item or note, zero or more times. That makes it possible to have either one in any order, as many as you wish.
+# What you aren't allowing for is a note element inside an item, and I wonder if that's what you want to make possible? I haven't seen a note element in your project XML yet, though.
 listName = element listName {text}
 type = attribute type {text}
 label = element label {text}

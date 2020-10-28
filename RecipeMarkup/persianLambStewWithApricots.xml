@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="../../../Hisotoric%20Recipe%20Markup/historicRecipes.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="historicRecipes.rnc" type="application/relax-ng-compact-syntax"?>
 <recipe name='Persian Lamb Stew With Apricots'><title>Persian Lamb Stew With Apricots</title>
 <about>
     servings  = 6
