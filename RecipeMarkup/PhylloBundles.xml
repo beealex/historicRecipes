@@ -20,7 +20,7 @@
         <item type="dairy" quant="1" unit="package" xml:id="fetachz">1 package (8 oz/227 g) feta cheese, crumbled</item>
        <item type="veggies" quant="6" unit="whole" xml:id="scallion"> 6 scallions, green tops and white bulbs thinly sliced</item>
        <item type="spice" quant="1" unit="Tbsp" xml:id="chopdill"> 1 Tbsp finely chopped fresh dill 15 mL</item>
-       <item type="animal byproduct" quant="2" unit="whole" xml:id="lgeggs"> 2 large eggs, lightly beaten</item>
+       <item type="animalByproduct" quant="2" unit="whole" xml:id="lgeggs"> 2 large eggs, lightly beaten</item>
         <item type="fruit" quant="1" unit="whole" xml:id="lemon">1 large lemon, zested and juiced</item>
        <item type="spice" quant="1" unit="tsp" xml:id="gratnutmeg"> 1 tsp freshly grated nutmeg 5 mL</item>
         <item type="spice" quant=".5" unit="tsp" xml:id="blpepp">1/2 tsp coarsely ground black pepper 2 mL</item>
@@ -29,6 +29,8 @@
         
     </list>
     <list type="equip">
+        <item> Parchment Paper </item>
+        <item> Cookie Sheet </item>
         <item> Medium Skillet </item>
         <item> Stove </item>
         <item> Small Bowl </item>
