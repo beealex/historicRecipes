@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <title> Common Ingredients During the Silk Trade Route</title>
+    <list type="commonIngredients">
+        <item id="ingredients" xml:id="blpepper" name="Black Pepper" heat="5"> </item>
+        
+        <item xml:id="cardamom" name="Cardamom"  heat="2">Cardamom</item>
+        
+        <item xml:id="cinnstick" name="Cinnamon Stick" heat="3">Cinnamon</item>
+        
+        <item xml:id="cumin" name="Cumin" heat="4">Cumin</item>
+        
+        <item xml:id="garlicClove" name="Garlic" heat="4">Garlic</item>
+        
+        <item xml:id="freshGinger" name="Ginger" heat="7">Ginger</item>
+        
+        <item xml:id="gratNutmeg" name="Nutmeg" heat="1">Nutmeg</item>
+
+        <item xml:id="saffthreads" name="Saffron"  heat="0">Saffron</item>
+        
+        <item xml:id="tumeric" name="Tumeric" heat="3">Tumeric</item>   
+    </list>
+</xml>
