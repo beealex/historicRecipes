@@ -21,28 +21,12 @@ h3{
   margin-left: auto;
   margin-right: auto;
 }
-img {
+
+/* * img {
     display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   padding:1px;
    border:1px solid #462B03;
-}
-#usedSpices {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-#usedSpices td, #usedSpices th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-#usedSpices th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #4CAF50;
-  color: white;
-}
+}*/
